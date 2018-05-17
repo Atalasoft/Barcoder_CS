@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A690E4CB-C9F4-4B18-BEE8-1D4041F98BB8}</ProjectGuid>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Barcoder</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BarcodeDemo</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccAuxPath>SAK</SccAuxPath>
+    <PublishUrl>http://localhost/Barcoder/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleasePackage|x86' ">
+    <OutputPath>bin\x86\ReleasePackage\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atalasoft.dotImage">
+      <Name>Atalasoft.dotImage</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Barcoding.Reading">
+      <Name>Atalasoft.dotImage.Barcoding.Reading</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Barcoding.Reading.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Barcoding.Reading.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Dicom">
+      <Name>Atalasoft.dotImage.Dicom</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Dicom.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Dicom.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Dwg">
+      <Name>Atalasoft.dotImage.Dwg</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Dwg.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Dwg.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Jbig2">
+      <Name>Atalasoft.dotImage.Jbig2</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Jbig2.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Jbig2.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Jpeg2000">
+      <Name>Atalasoft.dotImage.Jpeg2000</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Jpeg2000.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Jpeg2000.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Lib">
+      <Name>Atalasoft.dotImage.Lib</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Lib.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Office">
+      <Name>Atalasoft.dotImage.Office</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Office.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Pdf">
+      <Name>Atalasoft.dotImage.Pdf</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Pdf.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.PdfReader">
+      <Name>Atalasoft.dotImage.PdfReader</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.PdfReader.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.PdfReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.Raw">
+      <Name>Atalasoft.dotImage.Raw</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Raw.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.Raw.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.dotImage.WinControls">
+      <Name>Atalasoft.dotImage.WinControls</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.WinControls.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.dotImage.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Atalasoft.Shared">
+      <Name>Atalasoft.Shared</Name>
+      <HintPath>C:\Program Files\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.Shared.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Atalasoft\DotImage 11.0\bin\4.5.2\x86\Atalasoft.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Barcoder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultForm.Designer.cs">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinDemoHelperMethods.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcoder.resx">
+      <DependentUpon>Barcoder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultForm.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <Content Include="windowicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
